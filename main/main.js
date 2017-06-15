@@ -8,11 +8,14 @@ module.exports = function main(var0) {
     var var2=new Array();
     var2=loadAllItems();
     var var3=new Array();
+    for(var j=0;j<6;j++)
+        {
+            var2[j].num=0;
+        }
     for(var i in var1)
     {
         for(var j=0;j<6;j++)
         {
-            var2[j].num+=0;
             if(var1[i]==var2[j].barcode)
             {
                 var2[j].num+=1;
