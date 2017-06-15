@@ -26,7 +26,7 @@ module.exports = function main(var0) {
     {
         if(var2[j].num!=0)
         {
-            var are='名称：'+var2[j].name+'，数量：'+var2[j].num+var2[j].unit+'，单价：'+var2[j].price+'(元)，小计：'+var2[j].num*var2[j].price+'.00(元)\n';
+            var are='名称：'+var2[j].name+'，数量：'+var2[j].num+var2[j].unit+'，单价：'+var2[j].price+'.00(元)，小计：'+var2[j].num*var2[j].price+'.00(元)\n';
             var3.push(are);
             money=money+var2[j].num*var2[j].price;
         }
